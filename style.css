@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+        text-decoration: underline;
+}
+li {   
+    list-style-type: none;
+}
+
+header {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    height: 45px;
+    line-height: 5px;
+}
+.top-left{
+    position: absolute;
+    display: flex;
+    margin-left: 10px;
+    text-align: right;
+}
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+.gmail {
+    padding: 10px;
+}
+.images {
+    padding: 10px;
+}
+.apps{
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.searchbox {
+    display: flex;
+    width: 450px;
+    height: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 24px;
+    border: 1px solid #dfe1dfef; 
+}
+.text{
+    width: 420px;
+    border-color: transparent;
+}
+.text:focus{
+    outline: none;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+}
+.boxes {
+    color: #5f6368;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    margin: 5px px;
+    height: 36px;
+    min-width: 55px;
+    padding: 11px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    height: 45px;
+    line-height: 5px;
+}
+footer >nav {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-left{
+    display: flex;
+    margin: 20px;
+}
+.business{
+    padding: 15px;
+}
+.bottom-right{
+    display: flex;
+    margin: 20px;
+}
+.privacy{
+    padding: 15px;
+}
